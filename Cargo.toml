@@ -6,6 +6,10 @@ edition = "2021"
 
 
 [[bin]]
+name = "duid-dev"
+path = "src/tools/dev.rs"
+
+[[bin]]
 name = "duid-serve"
 path = "src/tools/serve.rs"
 
