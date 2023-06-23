@@ -4,8 +4,14 @@ version = "0.1.0"
 authors = ["{{authors}}"]
 edition = "2021"
 
-#[lib]
-#crate-type = ["cdylib", "rlib"]
+
+[[bin]]
+name = "dev-builder"
+path = "src/builders/dev_builder.rs"
+
+[[bin]]
+name = "prod-builder"
+path = "src/builders/prod_builder.rs"
 
 [features]
 
