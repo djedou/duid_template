@@ -6,12 +6,20 @@ edition = "2021"
 
 
 [[bin]]
-name = "dev-builder"
-path = "src/builders/dev_builder.rs"
+name = "duid-dev"
+path = "src/tools/dev.rs"
 
 [[bin]]
-name = "prod-builder"
-path = "src/builders/prod_builder.rs"
+name = "duid-serve"
+path = "src/tools/serve.rs"
+
+[[bin]]
+name = "duid-build"
+path = "src/tools/build.rs"
+
+[[bin]]
+name = "duid-serve"
+path = "src/tools/serve.rs"
 
 [features]
 
