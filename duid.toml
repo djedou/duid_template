@@ -1,5 +1,6 @@
-[env]
-CARGO_MAKE_EXTEND_WORKSPACE_MAKEFILE = true
+# If you are in a workspace then please uncomment two lines bellow
+#[env]
+#CARGO_MAKE_EXTEND_WORKSPACE_MAKEFILE = true
 
 
 [tasks.dev]
