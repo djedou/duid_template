@@ -1,5 +1,7 @@
-
+use duid_app::duid_core::compiler::compile;
 
 fn main() {
-    println!("inside the dev! it is used to generate wasm");
+    println!("########### started compiling...... ############");
+    compile("./dist");
+    println!("########### ended compiling...... ############");
 }

@@ -18,9 +18,7 @@ async fn main() {
     set_global_default(subscriber).unwrap();
 
     let args = Args::parse();
-    
     let address = format!("{}:{}", args.host, args.port);
-
     info!("Server: http://{}", address);
     server(&address).await
 }
