@@ -1,6 +1,5 @@
 use duid_app::duid_core::{
-    console::info, 
-    server::server, 
+    console::info,
     core::router::Router,
     init_trace
 };
