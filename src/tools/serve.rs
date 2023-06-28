@@ -12,7 +12,7 @@ struct Args {
 
 #[tokio::main]
 async fn main() {
-    init_trace():
+    init_trace();
 
     let args = Args::parse();
     let address = format!("{}:{}", args.host, args.port);
