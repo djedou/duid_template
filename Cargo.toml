@@ -7,13 +7,15 @@ edition = "2021"
 
 [lib]
 crate-type = ["cdylib"]
+name = "duid_engine"
 
 [features]
 
 
 [dependencies]
 wasm-bindgen = "0.2"
-duid-app = {version = "0.1.0", git = "https://github.com/djedou/duid-app", branch="develop"}
+#duid-app = {version = "0.1.0", git = "https://github.com/djedou/duid-app", branch="develop"}
+duid-app = {version = "0.1.0", path="../../../duid-app"}
 clap = {version = "4.0", features = ["derive", "cargo"]  }
 
 
@@ -25,3 +27,6 @@ wasm-bindgen-test = "0.3"
 debug = true
 lto = true
 opt-level = "s"
+
+
+
